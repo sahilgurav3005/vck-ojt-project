@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Courses.css';
 
 const Courses = () => {
@@ -108,9 +109,9 @@ const Courses = () => {
 
         <div className="call-to-action">
           <p>Have questions about a specific course?</p>
-          <a className="btn" href="/contact">
+          <Link className="btn" to="/contact">
             Inquire About Courses
-          </a>
+          </Link>
         </div>
       </div>
     </div>
