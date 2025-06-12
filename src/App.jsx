@@ -7,6 +7,7 @@ import Courses from './pages/Courses';
 import Contact from './pages/Contact';
 import Apply from './pages/Apply';
 import './App.css'
+import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 
 const App = () => {
   return (
@@ -18,7 +19,9 @@ const App = () => {
         <Route path="/courses" element={<Courses />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/apply" element={<Apply />} />
+        
       </Routes>
+      <ChatbotComponent></ChatbotComponent>
     </>
   );
 };
